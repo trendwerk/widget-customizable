@@ -22,10 +22,4 @@ Or manually add it to your `composer.json`:
 apply_filters( 'widget-customizable-image-size', $args );
 ```
 
-Change widget image size settings. `$args` contains:
-
-- **$width**
-- **$height**
-- **$crop**
-
-See [`add_image_size`](https://codex.wordpress.org/Function_Reference/add_image_size)
+Change widget image size settings. `$args` contains all arguments from [`add_image_size`](https://codex.wordpress.org/Function_Reference/add_image_size).
