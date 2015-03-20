@@ -15,3 +15,17 @@ Or manually add it to your `composer.json`:
 	"trendwerk/widget-customizable": "1.0.0"
 },
 ```
+
+### Hooks
+
+```php
+apply_filters( 'widget-customizable-image-size', $args );
+```
+
+Change widget image size settings. `$args` contains:
+
+- **$width**
+- **$height**
+- **$crop**
+
+See [`add_image_size`](https://codex.wordpress.org/Function_Reference/add_image_size)

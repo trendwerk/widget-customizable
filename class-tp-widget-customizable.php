@@ -30,7 +30,7 @@ class TP_Widget_Customizable_Plugin {
 	 */
 	function image_size() {
 		$args = apply_filters( 'widget-customizable-image-size', array(
-			'width'  => 320,
+			'width'  => 300,
 			'height' => 500,
 			'crop'   => false,
 		) );
