@@ -1,0 +1,22 @@
+.widget {
+
+	.tp-hide {
+		display: none;
+	}
+
+	.tp-edit-image.button-secondary,
+	.tp-remove-image.button-secondary {
+		margin: 5px 5px 0 0;
+	}
+
+	.tp-edit-image {
+		cursor: pointer;
+
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+
+	}
+
+}

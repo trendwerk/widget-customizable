@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-03-20 16:00+0100\n"
+"PO-Revision-Date: 2015-03-20 16:02+0100\n"
+"Last-Translator: Harold <harold@trendwerk.nl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-tp-widget-customizable.php:32
+msgid "Customizable widget"
+msgstr "Aanpasbare widget"
+
+#: class-tp-widget-customizable.php:33
+msgid "Editable title, image, content, more link, telephone number."
+msgstr "Aanpasbare titel, afbeelding, inhoud, meer link, telefoonnummer."
+
+#: class-tp-widget-customizable.php:37
+msgid "Read more link"
+msgstr "Lees meer link"
+
+#: class-tp-widget-customizable.php:38
+msgid "Primary button"
+msgstr "Primaire knop"
+
+#: class-tp-widget-customizable.php:39
+msgid "Secondary button"
+msgstr "Secundaire knop"
+
+#: class-tp-widget-customizable.php:50
+msgid "Choose an image"
+msgstr "Kies een afbeelding"
+
+#: class-tp-widget-customizable.php:51
+msgid "Insert into widget"
+msgstr "Invoegen in widget"
+
+#: class-tp-widget-customizable.php:75
+msgid "Title"
+msgstr "Titel"
+
+#: class-tp-widget-customizable.php:82
+msgid "Image"
+msgstr "Afbeelding"
+
+#: class-tp-widget-customizable.php:87
+msgid "Upload"
+msgstr "Upload"
+
+#: class-tp-widget-customizable.php:95
+msgid "Edit"
+msgstr "Bewerken"
+
+#: class-tp-widget-customizable.php:99
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: class-tp-widget-customizable.php:109
+msgid "Content"
+msgstr "Inhoud"
+
+#: class-tp-widget-customizable.php:117
+msgid "Show button / read more link"
+msgstr "Toon button / lees meer link"
+
+#: class-tp-widget-customizable.php:125
+msgid "Button text"
+msgstr "Button tekst"
+
+#: class-tp-widget-customizable.php:132
+msgid "Button link"
+msgstr "Button link"
+
+#: class-tp-widget-customizable.php:140
+msgid "Link type"
+msgstr "Link type"
+
+#: class-tp-widget-customizable.php:153
+msgid "Open link in new window / tab"
+msgstr "Open link in nieuw venster / tabblad"
