@@ -8,7 +8,7 @@
  * Author: Trendwerk
  * Author URI: https://github.com/trendwerk
  * 
- * Version: 1.0.0
+ * Version: 1.0.1
  */
 
 class TP_Widget_Customizable_Plugin {
@@ -57,6 +57,11 @@ class TP_Widget_Customizable extends WP_Widget {
 	}
 
 	function localize() {
+		global $current_screen;
+		
+		if( 'widgets' == $current_screen->base )
+			wp_enqueue_media();
+
 		wp_enqueue_script( 'widget-customizable', plugins_url( 'assets/coffee/admin.js', __FILE__ ), array( 'jquery' ) );
 
 		wp_localize_script( 'widget-customizable', 'TP_Widget_Customizable', array(
