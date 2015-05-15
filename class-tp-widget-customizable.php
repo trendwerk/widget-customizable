@@ -213,4 +213,6 @@ class TP_Widget_Customizable extends WP_Widget {
 	}
 }
 
-add_action( 'widgets_init', create_function( '', 'return register_widget( "TP_Widget_Customizable" );' ) );
+add_action( 'widgets_init', function() {
+	return register_widget( 'TP_Widget_Customizable' );
+} );
