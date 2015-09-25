@@ -43,7 +43,7 @@ class TP_Widget_Customizable_Plugin {
 class TP_Widget_Customizable extends WP_Widget {
 
 	function __construct() {
-		$this->WP_Widget( 'TP_Widget_Customizable', __( 'Customizable widget', 'widget-customizable' ), array(
+		parent::__construct( 'TP_Widget_Customizable', __( 'Customizable widget', 'widget-customizable' ), array(
 			'description' => __( 'Editable title, image, content, more link, telephone number.', 'widget-customizable' ),
 		) );
 
